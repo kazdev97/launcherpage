@@ -34,16 +34,17 @@ export const SECTIONS: Section[] = [
     id: 'introduccion',
     label: 'Introducción',
     group: 'Primeros pasos',
-    title: 'Bienvenido a BlockLauncher',
+    title: 'Bienvenido a KazLauncher',
     intro:
-      'BlockLauncher es tu launcher de Minecraft, diseñado para que entres al juego en segundos. Aquí encontrarás todo lo que necesitas para instalarlo, configurarlo y empezar a jugar.',
+      'KazLauncher esta basado en hru pensado para su uso privado en eventos y series de mi autoria o en colaboracion, facilitando la instalacion de modpacks y actualizacion de los mismos.',
     steps: [
       {
-        title: '¿Qué es BlockLauncher?',
+        title: '¿Qué es KazLauncher?',
         description:
-          'Escribe aquí una breve descripción de tu launcher: qué hace, para qué versiones de Minecraft sirve y qué lo hace especial.',
+          'Escrito en Python con autorizacion de uso de API por parte de Moganj y validado por Microsoft, utiliza Java Adoptium para correr Minecraft aumentando el rendimiento y de por defecto utiliza flags de aikar para manejar el uso de memoria mejorando el rendimiento general',
         screenshot: {
           caption: 'Captura de la pantalla principal del launcher al abrirlo.',
+          src: 'launcher_1.png'
         },
       },
       {
