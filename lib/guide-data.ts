@@ -201,9 +201,9 @@ export const SECTIONS: Section[] = [
       'Si algo no funciona, revisa estas soluciones a los problemas más frecuentes.',
     steps: [
       {
-        title: 'El launcher no abre',
+        title: 'Error al actualizar el modpack',
         description:
-          'Explica los pasos a seguir cuando el launcher no se inicia (reinstalar, comprobar Java, etc.).',
+          'Error 403, por lo general es algun error de conexion o el servidor de modpacks saturado, espera unos minutos y vuelve a intentar',
         notes: [
           'Comprueba que tienes la versión correcta de Java.',
           'Reinicia el ordenador e inténtalo de nuevo.',
@@ -212,7 +212,7 @@ export const SECTIONS: Section[] = [
       {
         title: 'Error al iniciar sesión',
         description:
-          'Describe qué hacer si el usuario no puede iniciar sesión correctamente.',
+          'No tienes el minecraft comprado o microsoft esta teniendo problemas para enviarnos la informacion de forma correcta, en este caso estamos investigando que causa que se detecte que no tienes minecraft cuando si lo tienes.',
         screenshot: {
           caption: 'Captura del mensaje de error de inicio de sesión.',
         },
