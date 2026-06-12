@@ -205,7 +205,7 @@ export const SECTIONS: Section[] = [
         description:
           'Error 403, por lo general es algun error de conexion o el servidor de modpacks saturado, espera unos minutos y vuelve a intentar',
         notes: [
-          'Comprueba que tienes la versión correcta de Java.',
+          'Comprueba que tienes buena conexion.',
           'Reinicia el ordenador e inténtalo de nuevo.',
         ],
       },
