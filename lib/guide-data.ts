@@ -34,26 +34,27 @@ export const SECTIONS: Section[] = [
     id: 'introduccion',
     label: 'Introducción',
     group: 'Primeros pasos',
-    title: 'Bienvenido a BlockLauncher',
+    title: 'Bienvenido a KazLauncher',
     intro:
-      'BlockLauncher es tu launcher de Minecraft, diseñado para que entres al juego en segundos. Aquí encontrarás todo lo que necesitas para instalarlo, configurarlo y empezar a jugar.',
+      'KazLauncher esta basado en hru pensado para su uso privado en eventos y series de mi autoria o en colaboracion, facilitando la instalacion de modpacks y actualizacion de los mismos.',
     steps: [
       {
-        title: '¿Qué es BlockLauncher?',
+        title: '¿Qué es KazLauncher?',
         description:
-          'Escribe aquí una breve descripción de tu launcher: qué hace, para qué versiones de Minecraft sirve y qué lo hace especial.',
+          'Escrito en Python con autorizacion de uso de API por parte de Mojang y validado por Microsoft, utiliza Java Adoptium para correr Minecraft aumentando el rendimiento y de por defecto utiliza flags de aikar para manejar el uso de memoria mejorando el rendimiento general',
         screenshot: {
           caption: 'Captura de la pantalla principal del launcher al abrirlo.',
+          src: 'launcher_1.png'
         },
       },
       {
         title: 'Requisitos del sistema',
         description:
-          'Indica los requisitos mínimos: sistema operativo, memoria RAM, versión de Java, espacio en disco, etc.',
+          'Realmente no pide mucho',
         notes: [
-          'Sistema operativo: Windows 10/11, macOS o Linux.',
+          'Sistema operativo: Windows 10/11.',
           'Memoria RAM recomendada: 4 GB o más.',
-          'Java: incluye la versión necesaria aquí.',
+          'Java: este se instala solo ntp.',
         ],
       },
     ],
@@ -64,22 +65,22 @@ export const SECTIONS: Section[] = [
     group: 'Instalación',
     title: 'Descargar el launcher',
     intro:
-      'Sigue estos pasos para descargar BlockLauncher desde la fuente oficial y dejarlo listo para instalar.',
+      'No necesita instalacion es directamente descargar y abrir y listo.',
     steps: [
       {
-        title: 'Paso 1 — Ir a la página de descargas',
+        title: 'Paso 1 - Descarga',
         description:
-          'Explica desde dónde se descarga el launcher y qué botón debe pulsar el usuario.',
+          'El enlace sera enviado en el discord correspondiente revisa los canales: Avisos, recursos, descargas depende la colab',
         screenshot: {
-          caption: 'Captura del botón de descarga en tu página web.',
+          caption: 'simplemente descarga.',
         },
       },
       {
-        title: 'Paso 2 — Elegir tu sistema operativo',
+        title: 'Paso 2 — Ejecutar',
         description:
-          'Describe cómo el usuario selecciona la versión correcta para su sistema (Windows, Mac, Linux).',
+          'Simplemente da doble clic y se abrira solo',
         screenshot: {
-          caption: 'Captura del selector de sistema operativo.',
+          caption: 'es todo',
         },
       },
     ],
@@ -88,24 +89,26 @@ export const SECTIONS: Section[] = [
     id: 'instalacion',
     label: 'Instalar',
     group: 'Instalación',
-    title: 'Instalar BlockLauncher',
+    title: 'Instalar Modpack',
     intro:
-      'Una vez descargado el archivo, instala el launcher siguiendo estos pasos.',
+      'Instalar Modpack',
     steps: [
       {
-        title: 'Paso 1 — Abrir el instalador',
+        title: 'Paso 1 — Modpacks',
         description:
-          'Explica cómo abrir el archivo descargado y qué hacer si el sistema muestra una advertencia.',
+          'Haz clic en la pestaña "ModPacks"',
         screenshot: {
-          caption: 'Captura de la ventana del instalador.',
+          caption: 'Captura de la ventana Modpacks.',
+          src: 'Screenshot_2.png'
         },
       },
       {
-        title: 'Paso 2 — Completar la instalación',
+        title: 'Paso 2 — instalar',
         description:
-          'Describe los clics necesarios para terminar la instalación y dónde se crea el acceso directo.',
+          'da 1 clic en el evento o serie que quieres instalar y presiona instalar, te pedira una contraseña la cual proveera el anfitrion del evento/serie en cuestion.',
         screenshot: {
-          caption: 'Captura del paso final de instalación.',
+          caption: 'Captura del paso final',
+          src: 'Screenshot_3.png'
         },
       },
     ],
@@ -198,9 +201,9 @@ export const SECTIONS: Section[] = [
       'Si algo no funciona, revisa estas soluciones a los problemas más frecuentes.',
     steps: [
       {
-        title: 'El launcher no abre',
+        title: 'Error al actualizar el modpack',
         description:
-          'Explica los pasos a seguir cuando el launcher no se inicia (reinstalar, comprobar Java, etc.).',
+          'Error 403, por lo general es algun error de conexion o el servidor de modpacks saturado, espera unos minutos y vuelve a intentar',
         notes: [
           'Comprueba que tienes la versión correcta de Java.',
           'Reinicia el ordenador e inténtalo de nuevo.',
@@ -209,7 +212,7 @@ export const SECTIONS: Section[] = [
       {
         title: 'Error al iniciar sesión',
         description:
-          'Describe qué hacer si el usuario no puede iniciar sesión correctamente.',
+          'No tienes el minecraft comprado o microsoft esta teniendo problemas para enviarnos la informacion de forma correcta, en este caso estamos investigando que causa que se detecte que no tienes minecraft cuando si lo tienes.',
         screenshot: {
           caption: 'Captura del mensaje de error de inicio de sesión.',
         },
