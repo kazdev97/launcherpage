@@ -65,22 +65,22 @@ export const SECTIONS: Section[] = [
     group: 'Instalación',
     title: 'Descargar el launcher',
     intro:
-      'Sigue estos pasos para descargar BlockLauncher desde la fuente oficial y dejarlo listo para instalar.',
+      'No necesita instalacion es directamente descargar y abrir y listo.',
     steps: [
       {
-        title: 'Paso 1 — Ir a la página de descargas',
+        title: 'Paso 1 - Descarga',
         description:
-          'Explica desde dónde se descarga el launcher y qué botón debe pulsar el usuario.',
+          'El enlace sera enviado en el discord correspondiente revisa los canales: Avisos, recursos, descargas depende la colab',
         screenshot: {
-          caption: 'Captura del botón de descarga en tu página web.',
+          caption: 'simplemente descarga.',
         },
       },
       {
-        title: 'Paso 2 — Elegir tu sistema operativo',
+        title: 'Paso 2 — Ejecutar',
         description:
-          'Describe cómo el usuario selecciona la versión correcta para su sistema (Windows, Mac, Linux).',
+          'Simplemente da doble clic y se abrira solo',
         screenshot: {
-          caption: 'Captura del selector de sistema operativo.',
+          caption: 'es todo',
         },
       },
     ],
@@ -89,16 +89,17 @@ export const SECTIONS: Section[] = [
     id: 'instalacion',
     label: 'Instalar',
     group: 'Instalación',
-    title: 'Instalar BlockLauncher',
+    title: 'Instalar Modpack',
     intro:
-      'Una vez descargado el archivo, instala el launcher siguiendo estos pasos.',
+      'Instalar Modpack',
     steps: [
       {
-        title: 'Paso 1 — Abrir el instalador',
+        title: 'Paso 1 — Modpacks',
         description:
-          'Explica cómo abrir el archivo descargado y qué hacer si el sistema muestra una advertencia.',
+          'Haz clic en la pestaña "ModPacks"',
         screenshot: {
           caption: 'Captura de la ventana del instalador.',
+          src: 'Screenshot_2.png'
         },
       },
       {
