@@ -41,7 +41,7 @@ export const SECTIONS: Section[] = [
       {
         title: '¿Qué es KazLauncher?',
         description:
-          'Escrito en Python con autorizacion de uso de API por parte de Moganj y validado por Microsoft, utiliza Java Adoptium para correr Minecraft aumentando el rendimiento y de por defecto utiliza flags de aikar para manejar el uso de memoria mejorando el rendimiento general',
+          'Escrito en Python con autorizacion de uso de API por parte de Mojang y validado por Microsoft, utiliza Java Adoptium para correr Minecraft aumentando el rendimiento y de por defecto utiliza flags de aikar para manejar el uso de memoria mejorando el rendimiento general',
         screenshot: {
           caption: 'Captura de la pantalla principal del launcher al abrirlo.',
           src: 'launcher_1.png'
@@ -50,11 +50,11 @@ export const SECTIONS: Section[] = [
       {
         title: 'Requisitos del sistema',
         description:
-          'Indica los requisitos mínimos: sistema operativo, memoria RAM, versión de Java, espacio en disco, etc.',
+          'Realmente no pide mucho',
         notes: [
-          'Sistema operativo: Windows 10/11, macOS o Linux.',
+          'Sistema operativo: Windows 10/11.',
           'Memoria RAM recomendada: 4 GB o más.',
-          'Java: incluye la versión necesaria aquí.',
+          'Java: este se instala solo ntp.',
         ],
       },
     ],
