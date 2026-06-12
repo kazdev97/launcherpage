@@ -98,16 +98,17 @@ export const SECTIONS: Section[] = [
         description:
           'Haz clic en la pestaña "ModPacks"',
         screenshot: {
-          caption: 'Captura de la ventana del instalador.',
+          caption: 'Captura de la ventana Modpacks.',
           src: 'Screenshot_2.png'
         },
       },
       {
-        title: 'Paso 2 — Completar la instalación',
+        title: 'Paso 2 — instalar',
         description:
-          'Describe los clics necesarios para terminar la instalación y dónde se crea el acceso directo.',
+          'da 1 clic en el evento o serie que quieres instalar y presiona instalar, te pedira una contraseña la cual proveera el anfitrion del evento/serie en cuestion.',
         screenshot: {
-          caption: 'Captura del paso final de instalación.',
+          caption: 'Captura del paso final',
+          src: 'Screenshot_3.png'
         },
       },
     ],
