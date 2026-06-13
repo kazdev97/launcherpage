@@ -130,15 +130,6 @@ export const SECTIONS: Section[] = [
           src: 'Screenshot_4.png'
         },
       },
-      {
-        title: 'Paso 2 — Escribir tus datos',
-        description:
-          'Detalla qué datos debe introducir el usuario y dónde hacer clic para entrar.',
-        screenshot: {
-          caption: 'Captura del formulario con los campos a rellenar.',
-        },
-        notes: ['Recuerda al usuario que no comparta su contraseña.'],
-      },
     ],
   },
   {
@@ -150,19 +141,12 @@ export const SECTIONS: Section[] = [
       'Con la sesión iniciada, elige la versión de Minecraft y entra al juego con un solo clic.',
     steps: [
       {
-        title: 'Paso 1 — Elegir la versión',
+        title: 'Elegir la versión',
         description:
-          'Explica cómo se abre el menú de versiones y cómo seleccionar la que se quiere jugar.',
+          'en donde dice "Versiones" tendras un desplegable con las versiones instaladas ya sea de serie/evento o uno instalado manualmente por ti, seleccionalo y dale a jugar',
         screenshot: {
           caption: 'Captura del menú desplegable de versiones.',
-        },
-      },
-      {
-        title: 'Paso 2 — Pulsar Jugar',
-        description:
-          'Describe el botón principal de "Jugar" y qué ocurre al pulsarlo (descarga, carga, apertura del juego).',
-        screenshot: {
-          caption: 'Captura del botón Jugar resaltado.',
+          src: 'Screenshot_5.png'
         },
       },
     ],
