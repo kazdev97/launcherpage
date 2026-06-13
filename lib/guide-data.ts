@@ -162,9 +162,10 @@ export const SECTIONS: Section[] = [
       {
         title: 'Asignar memoria RAM',
         description:
-          'Explica cómo cambiar la cantidad de RAM que usa el launcher y por qué es importante.',
+          'Ajusta la memoria ram de forma correcta con los pequeños avisos que aparecen al asignar memoria',
         screenshot: {
           caption: 'Captura del panel de ajustes de memoria.',
+          src: 'Screenshot_7.png'
         },
       },
       {
