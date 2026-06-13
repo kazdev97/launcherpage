@@ -9,11 +9,19 @@ export function ScreenshotSlot({
   caption: string
   src?: string
 }) {
+  // next/image requiere rutas absolutas (que empiecen con "/") o una URL completa.
+  // Normalizamos las rutas relativas (p. ej. "launcher_1.png") añadiendo la barra inicial.
+  const normalizedSrc = src
+    ? /^(https?:)?\/\//.test(src) || src.startsWith('/')
+      ? src
+      : `/${src}`
+    : undefined
+
   return (
     <figure className="overflow-hidden rounded-lg border border-border bg-card">
-      {src ? (
+      {normalizedSrc ? (
         <Image
-          src={src || '/placeholder.svg'}
+          src={normalizedSrc}
           alt={caption}
           width={1280}
           height={720}

@@ -119,14 +119,15 @@ export const SECTIONS: Section[] = [
     group: 'Uso del launcher',
     title: 'Iniciar sesión',
     intro:
-      'Para jugar necesitas iniciar sesión con tu cuenta. Aquí te explicamos cómo.',
+      'Para Utilizar tu cuenta premium, haz lo siguiente..',
     steps: [
       {
         title: 'Paso 1 — Abrir el launcher',
         description:
-          'Explica dónde encontrar el icono y qué aparece al abrir la aplicación por primera vez.',
+          'una vez abierto el launcher en la parte de "Seleccionar cuenta", encontraras un desplegable en donde podras dar clic en "añadir cuenta..." inicia sesion y listo.',
         screenshot: {
           caption: 'Captura de la pantalla de inicio de sesión.',
+          src: 'Screenshot_4.png'
         },
       },
       {
