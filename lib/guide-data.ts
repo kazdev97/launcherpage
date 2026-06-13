@@ -71,17 +71,11 @@ export const SECTIONS: Section[] = [
         title: 'Paso 1 - Descarga',
         description:
           'El enlace sera enviado en el discord correspondiente revisa los canales: Avisos, recursos, descargas depende la colab',
-        screenshot: {
-          caption: 'simplemente descarga.',
-        },
       },
       {
         title: 'Paso 2 — Ejecutar',
         description:
           'Simplemente da doble clic y se abrira solo',
-        screenshot: {
-          caption: 'es todo',
-        },
       },
     ],
   },
