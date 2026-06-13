@@ -168,11 +168,12 @@ export const SECTIONS: Section[] = [
         },
       },
       {
-        title: 'Carpeta de instalación',
+        title: 'Colores',
         description:
-          'Describe cómo cambiar la ubicación donde se guardan los archivos del juego.',
+          'aqui puedes cambiar el color del launcher.',
         screenshot: {
-          caption: 'Captura de la opción de carpeta de instalación.',
+          caption: 'Captura',
+          src: 'Screenshot_8.png'
         },
       },
     ],
