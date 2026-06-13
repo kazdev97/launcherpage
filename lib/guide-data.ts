@@ -214,9 +214,6 @@ export const SECTIONS: Section[] = [
         title: 'Error al iniciar sesión',
         description:
           'No tienes el minecraft comprado o microsoft esta teniendo problemas para enviarnos la informacion de forma correcta, en este caso estamos investigando que causa que se detecte que no tienes minecraft cuando si lo tienes.',
-        screenshot: {
-          caption: 'Captura del mensaje de error de inicio de sesión.',
-        },
       },
     ],
   },
