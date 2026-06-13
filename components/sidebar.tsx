@@ -74,7 +74,7 @@ export function Sidebar({ activeId, onNavigate }: SidebarProps) {
           <span className="flex h-7 w-7 items-center justify-center rounded-[4px] bg-primary text-primary-foreground">
             <Boxes className="h-4 w-4" />
           </span>
-          <span className="font-mono text-sm font-semibold">BlockLauncher</span>
+          <span className="font-mono text-sm font-semibold">KazLauncher</span>
         </div>
         <button
           onClick={() => setOpen((v) => !v)}
@@ -108,7 +108,7 @@ export function Sidebar({ activeId, onNavigate }: SidebarProps) {
             </span>
             <div className="flex flex-col leading-tight">
               <span className="font-mono text-sm font-semibold">
-                BlockLauncher
+                KazLauncher
               </span>
               <span className="text-xs text-muted-foreground">Guía de uso</span>
             </div>

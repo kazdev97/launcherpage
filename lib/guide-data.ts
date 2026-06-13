@@ -130,15 +130,6 @@ export const SECTIONS: Section[] = [
           src: 'Screenshot_4.png'
         },
       },
-      {
-        title: 'Paso 2 — Escribir tus datos',
-        description:
-          'Detalla qué datos debe introducir el usuario y dónde hacer clic para entrar.',
-        screenshot: {
-          caption: 'Captura del formulario con los campos a rellenar.',
-        },
-        notes: ['Recuerda al usuario que no comparta su contraseña.'],
-      },
     ],
   },
   {
@@ -150,19 +141,12 @@ export const SECTIONS: Section[] = [
       'Con la sesión iniciada, elige la versión de Minecraft y entra al juego con un solo clic.',
     steps: [
       {
-        title: 'Paso 1 — Elegir la versión',
+        title: 'Elegir la versión',
         description:
-          'Explica cómo se abre el menú de versiones y cómo seleccionar la que se quiere jugar.',
+          'en donde dice "Versiones" tendras un desplegable con las versiones instaladas ya sea de serie/evento o uno instalado manualmente por ti, seleccionalo y dale a jugar',
         screenshot: {
           caption: 'Captura del menú desplegable de versiones.',
-        },
-      },
-      {
-        title: 'Paso 2 — Pulsar Jugar',
-        description:
-          'Describe el botón principal de "Jugar" y qué ocurre al pulsarlo (descarga, carga, apertura del juego).',
-        screenshot: {
-          caption: 'Captura del botón Jugar resaltado.',
+          src: 'Screenshot_5.png'
         },
       },
     ],
@@ -178,17 +162,19 @@ export const SECTIONS: Section[] = [
       {
         title: 'Asignar memoria RAM',
         description:
-          'Explica cómo cambiar la cantidad de RAM que usa el launcher y por qué es importante.',
+          'Ajusta la memoria ram de forma correcta con los pequeños avisos que aparecen al asignar memoria',
         screenshot: {
           caption: 'Captura del panel de ajustes de memoria.',
+          src: 'Screenshot_7.png'
         },
       },
       {
-        title: 'Carpeta de instalación',
+        title: 'Colores',
         description:
-          'Describe cómo cambiar la ubicación donde se guardan los archivos del juego.',
+          'aqui puedes cambiar el color del launcher.',
         screenshot: {
-          caption: 'Captura de la opción de carpeta de instalación.',
+          caption: 'Captura',
+          src: 'Screenshot_8.png'
         },
       },
     ],
@@ -214,9 +200,6 @@ export const SECTIONS: Section[] = [
         title: 'Error al iniciar sesión',
         description:
           'No tienes el minecraft comprado o microsoft esta teniendo problemas para enviarnos la informacion de forma correcta, en este caso estamos investigando que causa que se detecte que no tienes minecraft cuando si lo tienes.',
-        screenshot: {
-          caption: 'Captura del mensaje de error de inicio de sesión.',
-        },
       },
     ],
   },
